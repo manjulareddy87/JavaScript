@@ -93,8 +93,13 @@ condition ? value if ture : value if false
 
 console.log ('************Bitwise operators*************');
 
-let A = 1;
-let B = 2;
+let A = 3;
+let B = 5;
 console.log (A & B);
 console.log (A | B);
-console.log (3^5);
+console.log (A ^ B);
+console.log (~B);
+console.log (A>>B);
+console.log (A<<B);
+
+
