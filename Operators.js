@@ -28,9 +28,9 @@
 
 
 /******************** comparison operations  ************/ 
- let x = 11;
- let y = 12;
-console.log(x >= y);
+//  let x = 11;
+//  let y = 12;
+// console.log(x >= y);
 
 
 
@@ -55,8 +55,46 @@ condition ? value if ture : value if false
 
 
 
-let firstName  = 'Manjula';
+// let firstName  = 'Manjula';
 
-console.log(typeof firstName);
-console.log(typeof 123.34);
-console.log(typeof true);
+// console.log(typeof firstName);
+// console.log(typeof 123.34);
+// console.log(typeof true);
+
+
+// let firstName  = 'Manjula';
+
+// console.log (typeof firstName);
+// console.log (typeof 123.45);
+// console.log (typeof true);
+
+
+// let lastName = new String ('Karnati')
+// let num1 = new Number(123)
+// console.log (lastName instanceof String); 
+
+
+
+
+// console.log (typeof "Manjula");
+// console.log (typeof 123);
+// console.log (typeof false);
+// console.log (typeof NaN);
+// console.log (typeof [1,2,3,4]);
+// console.log (typeof {name : 'peter', age : 25});
+// console.log (typeof new Date ());
+// console .log (typeof null);
+// console.log (typeof function () {});
+// console.log (typeof myclass);
+
+
+
+
+
+console.log ('************Bitwise operators*************');
+
+let A = 1;
+let B = 2;
+console.log (A & B);
+console.log (A | B);
+console.log (3^5);
