@@ -1,0 +1,23 @@
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts1
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts
+
+
+###
+POST https://jsonplaceholder.typicode.com/posts?xyz=123
+Content-Type: application/json
+
+{
+    "body":"103",
+    "title" : "This is test"
+}
